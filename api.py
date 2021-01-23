@@ -81,6 +81,8 @@ def ProcessPayment():
             cvvlength = len(cvvcode)
             if cvvlength is 3 and int(cvvcode) > 0:
                 cvv = True
+            else:
+                cvv = False
         except ValueError:
             cvv = False
 
