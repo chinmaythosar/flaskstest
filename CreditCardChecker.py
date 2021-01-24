@@ -1,5 +1,7 @@
 import re
 
+#This is the pip library copied to avoid installing. All rights belong to the original author.
+
 class CreditCardChecker:
     def __init__(self, card_num):
         self.card_num = card_num
